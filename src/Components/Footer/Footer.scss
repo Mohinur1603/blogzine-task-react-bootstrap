@@ -1,0 +1,40 @@
+.footer-main{
+  a{
+    color: rgb(223, 221, 221);
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}
+.footer-top {
+
+  .logoImg {
+
+    img{
+        width: 240px;
+    }
+  }
+  .text {
+
+    color: #999;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .inputGroup {
+ 
+    input{
+        outline: none;
+    }
+    .form-text{
+      text-align: right;
+      color: #999;
+      a{
+        color: #999;
+      }
+    }
+  }
+}
+.footer-bottom{
+  background: #000;
+}

@@ -1,0 +1,60 @@
+.parentCard {
+  height: 100% !important;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.parentCard .card {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  background-size: cover;
+  background-position: center;
+}
+
+.parentCard .card-box {
+  bottom: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), -webkit-gradient(linear, left bottom, left top, from(black), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), linear-gradient(to top, black, rgba(0, 0, 0, 0));
+  position: absolute;
+}
+
+.parentCard .card-box .speciality {
+  border-radius: 5px;
+}
+
+.parentCard .card-box .avatar-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.parentCard .card-box h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.parentCard .card-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+.parentCard .card-box ul li {
+  font-size: 14px;
+  color: #fff;
+}
+
+.parentCard:hover .card,
+.parentCard:focus .card {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.parentCard:hover .card-box a {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=Card.css.map */

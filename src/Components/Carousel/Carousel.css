@@ -1,0 +1,17 @@
+.carouselCard {
+  width: 250px;
+  height: 390px;
+}
+
+.carouselCard .img {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.carouselCard span {
+  font-size: 13px;
+  color: #555;
+}
+/*# sourceMappingURL=Carousel.css.map */

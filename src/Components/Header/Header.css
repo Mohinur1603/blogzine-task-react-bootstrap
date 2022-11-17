@@ -1,0 +1,80 @@
+.header ul li {
+  list-style-type: none;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: #444;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header ul li a:hover {
+  color: blue;
+}
+
+.header .btnGroup {
+  padding: 0rem 0.5rem;
+  height: 30px;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.header .icons a img {
+  width: 20px;
+  height: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.header .line {
+  height: 2px;
+  width: 100%;
+  background-color: rgba(168, 199, 202, 0.356);
+  display: block;
+}
+
+.header .img {
+  width: 27px;
+  height: 27px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+  background: transporent;
+}
+
+.header .menu-ul {
+  color: #444;
+}
+
+.header .menu-ul li:hover {
+  color: blue;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fefefe;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  height: auto;
+  z-index: 99;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sticky li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=Header.css.map */

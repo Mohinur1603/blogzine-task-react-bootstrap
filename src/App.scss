@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Poppins:wght@100;200;300;400&family=Roboto+Condensed:wght@400;700&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+$blue: #0366fc !default; //blue ni o'zgartirdim
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #f56db1 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #75cee0 !default;
+@import "bootstrap/scss/bootstrap.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+.app {
+  .container {
+    section {
+      .trending {
+        padding: 5px 20px;
+      }
+
+      .arrow {
+        text-align: center;
+        padding: 0px 6px;
+        background-color: #fff;
+        color: #555;
+        border-radius: 50%;
+      }
+    }
+
+    .cards {
+      height: 650px;
+    }
+  }
+
+  .line {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background-color: #bfdee4;
+  }
+
+  footer {
+    background: #191c1f;
+  }
+}
+.app.dark {
+  background: #22272b;
+  color: #fff;
+}

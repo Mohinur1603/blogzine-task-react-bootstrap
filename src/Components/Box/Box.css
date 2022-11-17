@@ -1,0 +1,156 @@
+.parent-boxs-section .col-8 img {
+  width: 25px;
+}
+
+.parent-boxs-section .col-8 .box-audio {
+  top: 30%;
+  left: 40px;
+}
+
+.parent-boxs-section .col-8 .button {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 25%;
+  margin: 0 auto;
+  background-color: #01a9f744;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.parent-boxs-section .col-8 .button a {
+  color: #285aeb;
+  font-weight: bold;
+}
+
+.parent-boxs-section .col-8 .button img {
+  width: 20px;
+}
+
+.parent-boxs-section .col-8 .button:hover {
+  background-color: #285aeb;
+}
+
+.parent-boxs-section .col-8 .button:hover a {
+  color: #fff;
+}
+
+.parent-boxs-section .followers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.parent-boxs-section .followers .insta {
+  background: radial-gradient(circle at 20% 130%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+}
+
+.parent-boxs-section .followers > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 105px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: bold;
+  background: #000;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.parent-boxs-section .followers > div img {
+  width: 30px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.parent-boxs-section .tiles h6 {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+}
+
+.parent-boxs-section .sidebar h6 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.parent-boxs-section .sidebar span {
+  font-size: 12px;
+  color: darkgray;
+}
+
+.parent-boxs-section .sidebar img {
+  width: 80px;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+.box {
+  height: 555px;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box h5:hover {
+  text-decoration: underline;
+}
+
+.box p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.box .box-img {
+  position: relative;
+}
+
+.box .box-img img {
+  height: 280px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 1rem;
+}
+
+.box .box-img .abs {
+  position: absolute;
+  padding: 1px 12px;
+  border-radius: 4px;
+  bottom: 10%;
+  left: 10%;
+}
+
+.box .box-img .abs span {
+  font-size: 14px;
+}
+
+.box ul {
+  padding-left: 0;
+}
+
+.box ul li {
+  list-style-type: none;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.box ul li img {
+  width: 40px !important;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=Box.css.map */
